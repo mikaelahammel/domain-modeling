@@ -14,6 +14,29 @@ CREATE TABLE students (
   phone_number TEXT
 );
 
+CREATE TABLE teachers (
+  id INTEGER PRIMARY KEY AUTOINCREMENT,
+  first_name TEXT,
+  last_name TEXT, 
+  bio TEXT
+);
+
+CREATE TABLE courses (
+  id INTEGER PRIMARY KEY AUTOINCREMENT,
+  name TEXT,
+  description TEXT,
+);
+
+CREATE TABLE sections (
+  id INTEGER PRIMARY KEY AUTOINCREMENT,
+  time TEXT,
+-- NEED TO INSERT MORE
+)
+
+CREATE TABLE enrollements(
+  id INTEGER PRIMARY KEY AUTOINCREMENT,
+  -- NEED TO INSERT MORE
+)
 -- Create the rest of the tables
 
 
